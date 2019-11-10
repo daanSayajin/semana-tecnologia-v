@@ -1,34 +1,8 @@
-#main-logo {
-    transform: rotate(-3deg);
-}
-
-.padding-top-2 {
-    padding-top: 2vh;
-}
-
 .section {
-    margin-top: 40px;
     padding-top: 20px;
-
-    h4 {
-        margin-bottom: 15px;
-    }
+    padding-bottom: 30px;
 }
 
-#programacao {
-    background: #f4f8fd;
-    padding-bottom: 30px;
-
-    img {
-        width: 900px;
-    }
-}
-
-#empresas {
-    margin-top: 0px;
-    padding-bottom: 30px;
-
-    img {
-        width: 900px;
-    }
+span {
+    font-weight: bold;
 }

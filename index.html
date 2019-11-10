@@ -1,72 +1,96 @@
 <!doctype html>
 <html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Semana da Tecnologia</title>
+        <link rel="stylesheet" href="css/app.css">
+        <link rel="icon" href="assets/semana-da-tecnologia.png">
+    </head>
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Semana da Tecnologia</title>
-    <link rel="stylesheet" href="css/app.css">
-</head>
-
-<body>
-    <div data-sticky-container>
-        <div class="title-bar" data-sticky data-options="marginTop:0;" style="width:100%">
-            <div class="title-bar-left">
-                <ul class="menu" data-smooth-scroll data-threshold="140" data-animation-easing="swing" data-animation-duration="400" >
-                    <li><a href="#programacao">PROGRAMAÇÃO</a></li>
-                    <li><a href="#empresas">EMPRESAS</a></li>
-                    <li><a href="">FÓRUM</a></li>
-                    <li><a href="">EXPOSIÇÃO</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <div class="grid-container section" style="margin-top: 15px;">
-        <div class="grid-x grid-padding-x">
-            <div class="cell large-4">
-                <img src="assets/semana-da-tecnologia.png" id="main-logo" />
-            </div>
-            <div class="cell large-8 text-center padding-top-2">
-                <div class="thumbnail">
-                    <h4>Venha participar da Semana de Tecnologia!</h4>
-                    <h5>Mais de 42 empresas confirmadas, 33 palestras técnicas, fórum sobre o mercado de trabalho,
-                        hackathon, mecathon e mais um monte de atrações para você!</h5>
-                    <h5>O evento acontecerá no dia 18, 19, 21 e 22 de novembro.</h5>
+    <body>
+        <div data-sticky-container>
+            <div class="title-bar" data-sticky data-options="marginTop:0;" style="width:100%">
+                <div class="title-bar-left">
+                    <ul class="menu" data-smooth-scroll data-threshold="140" data-animation-easing="swing" data-animation-duration="400">
+                        <li><a href="#empresas">EMPRESAS</a></li>
+                        <li><a href="#palestras">PALESTRAS</a></li>
+                        <li><a href="#forum">FÓRUM</a></li>
+                        <li><a href="">EXPOSIÇÃO</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="section" id="programacao">
-        <div class="grid-container">
-            <div class="grid-x align-center">
-                <h4>PROGRAMAÇÃO</h4>
-            </div>
-
-            <div class="grid-x align-center">
-                <img src="assets/programacao.png" />
-            </div>
-        </div>
-    </div>
-
-    <div class="section" id="empresas">
-        <div class="grid-container">
-            <div class="grid-x align-center">
-                <h4>EMPRESAS</h4>
-            </div>
-
-            <div class="grid-x align-center">
-                <img src="assets/empresas.png" />
+        <div class="section" style="background: url('assets/bg.jpg'); background-size: cover; background-attachment: fixed;">
+            <div class="grid-container section" style="margin-top: 15px;">
+                <div class="grid-x grid-padding-x">
+                    <div class="cell large-4">
+                        <img src="assets/semana-da-tecnologia.png" />
+                    </div>
+                    <div class="cell large-8 text-center">
+                        <div style="background: rgba(244, 248, 253, 0.9); padding: 15px 10px 10px 10px;">
+                            <h4>Venha participar da Semana de Tecnologia!</h4>
+                            <h5>
+                                Mais de <span>42 empresas</span> confirmadas, <span>33 palestras</span> técnicas, <span>fórum sobre o mercado de trabalho</span>, <span>hackathon</span>, <span>mecathon</span> e mais um monte de atrações para você!
+                            </h5>
+                            <h5 style="font-style: italic;">O evento acontecerá no dia 18, 19, 21 e 22 de novembro.</h5>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
 
-    <script src="node_modules/jquery/dist/jquery.js"></script>
-    <script src="node_modules/what-input/dist/what-input.js"></script>
-    <script src="node_modules/foundation-sites/dist/js/foundation.js"></script>
-    <script src="js/app.js"></script>
-</body>
+        <div class="section" id="empresas">
+            <div class="grid-container">
+                <div class="grid-x align-center text-center" style="margin-bottom: 15px;">
+                    <div class="columns">
+                        <h4>EMPRESAS</h4>
+                        <h5>Mais de 42 empresas confirmadas e com participação ativa em exposições, palestras, demonstrações e maratonas de soluções de problemas!</h5>
+                    </div>
+                </div>
 
+                <div class="grid-x align-center">
+                    <img src="assets/empresas.png" style="width: 900px;" />
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="section" id="palestras" style="background: #f4f8fd;">
+            <div class="grid-container">
+                <div class="grid-x align-center text-center" style="margin-bottom: 20px;">
+                    <div class="columns">
+                        <h4>PALESTRAS</h4>
+                        <h5>Mais de 33 palestras técnicas de diversas áreas tecnológicas com público confirmado e agendado!</h5>
+                    </div>
+                </div>
+
+                <div class="grid-x align-center">
+                    <img src="assets/programacao.png" style="width: 900px;" />
+                </div>
+            </div>
+        </div>
+
+        <div class="section" id="forum" style="background: #f4f8fd;">
+            <div class="grid-container">
+                <div class="grid-x align-center text-center" style="margin-bottom: 20px;">
+                    <div class="columns">
+                        <h4>FÓRUM - MERCADO DE TRABALHO</h4>
+                        <h5>Mais de 10 profissionais que atuam em grandes empresas estarão presentes no nosso fórum sobre o perfil profissional ideal do recém formado!</h5>
+                    </div>
+                </div>
+
+                <div class="grid-x align-center">
+                    <img src="assets/forum.png" style="width: 900px;" />
+                </div>
+            </div>
+        </div>
+
+        <script src="node_modules/jquery/dist/jquery.js"></script>
+        <script src="node_modules/what-input/dist/what-input.js"></script>
+        <script src="node_modules/foundation-sites/dist/js/foundation.js"></script>
+        <script src="js/app.js"></script>
+    </body>
 </html>
