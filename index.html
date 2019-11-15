@@ -20,6 +20,7 @@
                         <li><a href="#exposicao">EXPOSIÇÃO</a></li>
                         <li><a href="#hackathon">HACKATHON</a></li>
                         <li><a href="#stands">STANDS</a></li>
+                        <li><a href="#projetos">PROJETOS DOS ALUNOS</a></li>
                         <li><a href="devs.html">DESENVOLVEDORES</a></li>
                     </ul>
                 </div>
@@ -32,7 +33,7 @@
                     <div class="cell large-4">
                         <img src="assets/semana-da-tecnologia.png" />
                     </div>
-                    <div class="cell large-8 text-center">
+                    <div class="cell large-8 text-center" style="margin-top: 15px;">
                         <div style="background: rgba(244, 248, 253, 0.9); padding: 15px 10px 10px 10px;">
                             <h4>Venha participar da Semana de Tecnologia!</h4>
                             <h5>
@@ -122,15 +123,6 @@
                         <img src="assets/hackathon2.png" />
                     </div>
                 </div>
-
-                <div class="grid-x grid-padding-x grid-padding-y align-center">
-                    <div class="cell large-6">
-                        <img src="assets/hackathon3.png" />
-                    </div>
-                    <div class="cell large-6">
-                        <img src="assets/hackathon4.png" />
-                    </div>
-                </div>
             </div>
         </div>
 
@@ -150,7 +142,71 @@
             </div>
         </div>
 
-        <div class="top-bar align-center">
+        <div class="reveal" id="redesModal" data-reveal>
+            <h2>Redes de Computadores</h2>
+            <p class="lead">
+                <div class="flex-video">
+                        <iframe width="420" height="200" src="//www.youtube.com/embed/wTx3W8yu0ik" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </p>
+            <p>
+                O projeto teve como objetivo a implementação de um sistema de monitoramento utilizando a ferramenta Zabbix, que fornece métricas de monitoramento para toda sua infra-estrutura de rede.
+            </p>
+            <button class="close-button" data-close aria-label="Close modal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+
+        <div class="reveal" id="informaticaModal" data-reveal>
+            <h2>Informática</h2>
+            <p class="lead">
+                <img src="assets/instenai.PNG" />
+            </p>
+            <p>
+                O projeto teve como objetivo a implementação de um sistema de upload de imagens utilizando uma API em Node.Js e o Socket.IO para o funcionamento total do sistema em tempo real. As imagens enviadas pelo aplicativo mobile <span><a href="http://instenai.tk/app" style="color: rgb(28, 78, 214);" target="_blank">http://instenai.tk/app</a></span> aparecem no website <span><a href="http://instenai.tk" style="color: rgb(28, 78, 214);" target="_blank">http://instenai.tk</a></span>, tudo isso em tempo real.
+            </p>
+            <button class="close-button" data-close aria-label="Close modal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+
+        <div class="section" id="projetos" style="background: #f4f8fd;">
+            <div class="grid-container">
+                <div class="grid-x align-center text-center" style="margin-bottom: 20px;">
+                    <div class="columns">
+                        <h4>PROJETOS DOS ALUNOS</h4>
+                        <h5></h5>
+                    </div>
+                </div>
+
+                <div class="grid-x grid-padding-x grid-padding-y align-center">
+                    <div class="card" style="width: 300px; margin: 12px;">
+                        <div class="card-divider">Informática</div>
+               
+                        <div class="card-section">
+                            <h4>Projeto de Informática</h4>
+                            <p>
+                                Implementação de um sistema de monitoramento utilizando a ferramenta Zabbix 
+                            </p>
+                            <p><button class="button" data-open="informaticaModal">Mais detalhes</button></p>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 300px; margin: 12px;">
+                        <div class="card-divider">Redes de Computadores</div>
+                        <div class="card-section">
+                            <h4>Projeto de Redes de Computadores</h4>
+                            <p>
+                                Implementação de um sistema de upload de imagens em tempo real utilizando a biblioteca Socket.IO
+                            </p>
+                            <p><button class="button" data-open="redesModal">Mais detalhes</button></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="top-bar align-center text-center">
             <h6 style="margin-bottom: 0">Desenvolvido por: Daniel Ávila, Daniel Bastos, Matheus e Melissa </h6>
         </div>
 
